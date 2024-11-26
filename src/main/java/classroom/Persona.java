@@ -9,12 +9,11 @@ public class Persona {
         this.cedula = cedula;
     }
 
-    public Persona(String nombre) {
-        this(nombre, 0);
-    }
 
-    public Persona(int cedula) {
-        this("Sin nombre", cedula);
+
+    public Persona(int cedula, String nombre) {
+        this.cedula=cedula;
+        this.nombre=nombre
     }
 
     public Persona() {
