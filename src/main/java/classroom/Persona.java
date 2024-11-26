@@ -1,31 +1,39 @@
 package classroom;
 
 public class Persona {
-
-    public String nombre;
-    public int cedula;
-
-    public Persona() {
-        this.nombre = "Sin nombre";
-        this.cedula = 0;
-    }
-
-    public Persona(int cedula) {
-        this.nombre = "Sin nombre";
-        this.cedula = cedula;
-    }
-
-    public Persona(String nombre) {
-        this.nombre = nombre;
-        this.cedula = 0;
-    }
+    private String nombre;
+    private int cedula;
 
     public Persona(String nombre, int cedula) {
         this.nombre = nombre;
         this.cedula = cedula;
     }
 
+    public Persona(String nombre) {
+        this(nombre, 0);
+    }
+
+    public Persona(int cedula) {
+        this("Sin nombre", cedula);
+    }
+
+    public Persona() {
+        this("Sin nombre", 0);
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public int getCedula() {
-        return this.cedula;
+        return cedula;
+    }
+
+    public void setCedula(int cedula) {
+        this.cedula = cedula;
     }
 }
