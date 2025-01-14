@@ -14,12 +14,6 @@ public class Asignatura {
         this.tipo = tipo.FUNDAMENTACION;
     }
 
-    public Asignatura(int codigoInterno, Tipo tipo) {
-        this.nombre = "Sin nombre";
-        this.codigoInterno = codigoInterno;
-        this.codigoExterno = 0;
-        this.tipo = tipo;
-    }
 
     public Asignatura(int codigoExterno, Tipo tipo, boolean externo) {
         this.nombre = "Sin nombre";
