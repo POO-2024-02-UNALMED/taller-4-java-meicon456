@@ -15,6 +15,7 @@ public class Taller4 {
         Asignatura asignatura2 = new Asignatura(882,Tipo.DISCIPLINAR);
         asignatura2.setCodigoInterno(98);
         asignatura2.cambiarDatos("Estadistica");
+        asignatura2.cambiarDatos(882);
         Grupo grupo2 = new Grupo(2, profesor2, asignatura2, 10122, "W V 8-10");
         grupo2.cambiarEstudiante(0, estudiantes1[0]);
         grupo2.cambiarEstudiante(1, estudiantes1[2]);
