@@ -37,5 +37,9 @@ public class Persona {
     public void setCedula(int cedula) {
         this.cedula = cedula;
     }
+
+    public int getCedula() {
+        return cedula;
+    ]
 }
 
