@@ -14,7 +14,7 @@ public class Persona {
     }
 
     public Persona(String nombre) {
-        this(nombre, 0);
+        this(nombre, 1);
     }
 
     public Persona(int cedula, String nombre) {
