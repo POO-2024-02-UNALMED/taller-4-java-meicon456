@@ -10,7 +10,7 @@ public class Persona {
     }
 
     public Persona(int cedula) {
-        this("Sin nombre", cedula);
+        this("", cedula);
     }
 
     public Persona(String nombre) {
