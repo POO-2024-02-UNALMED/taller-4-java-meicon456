@@ -15,7 +15,7 @@ public class Asignatura {
     }
 
 
-    public Asignatura(int codigoExterno, Tipo tipo, boolean externo) {
+    public Asignatura(int codigoExterno, Tipo tipo) {
         this.nombre = "Sin nombre";
         this.codigoInterno = 0;
         this.codigoExterno = codigoExterno;
