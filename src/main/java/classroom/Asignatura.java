@@ -37,9 +37,6 @@ public class Asignatura {
         this.tipo = tipo;
     }
 
-    public void cambiarDatos(int codigoInterno) {
-        this.codigoInterno = codigoInterno;
-    }
 
     public void cambiarDatos(String nombre) {
         this.nombre = nombre;
