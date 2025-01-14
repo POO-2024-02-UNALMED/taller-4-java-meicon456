@@ -45,6 +45,10 @@ public class Asignatura {
         this.nombre = nombre;
     }
 
+    public void cambiarDatos(int codigoExterno) {
+        this.codigoExterno = codigoExterno;
+    }
+
     public void setCodigoInterno(int codigoInterno) {
         this.codigoInterno = codigoInterno;
     }
