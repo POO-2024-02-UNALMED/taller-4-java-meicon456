@@ -8,19 +8,31 @@ public class Asignatura {
     public Tipo tipo;
 
     public Asignatura() {
-        this("Sin nombre", 0, 0, Tipo.FUNDAMENTACION);
+        this.nombre = "Sin nombre";
+        this.codigoInterno = 0;
+        this.codigoExterno = 0;
+        this.tipo = tipo.FUNDAMENTACION;
     }
 
     public Asignatura(int codigoInterno, Tipo tipo) {
-        this("Sin nombre", codigoInterno, 0, tipo);
+        this.nombre = "Sin nombre";
+        this.codigoInterno = codigoInterno;
+        this.codigoExterno = 0;
+        this.tipo = tipo;
     }
 
     public Asignatura(int codigoExterno, Tipo tipo, boolean externo) {
-        this("Sin nombre", 0, codigoExterno, tipo);
+        this.nombre = "Sin nombre";
+        this.codigoInterno = 0;
+        this.codigoExterno = codigoExterno;
+        this.tipo = tipo;
     }
 
     public Asignatura(String nombre, Tipo tipo) {
-        this(nombre, 0, 0, tipo);
+        this.nombre = nombre;
+        this.codigoInterno = 0;
+        this.codigoExterno = 0;
+        this.tipo = tipo;;
     }
 
     public Asignatura(String nombre, int codigoInterno, int codigoExterno, Tipo tipo) {
