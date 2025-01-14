@@ -1,3 +1,5 @@
+package classroom;
+
 public class Persona {
     public String nombre;
     public int cedula;
