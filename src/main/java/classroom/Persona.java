@@ -40,6 +40,6 @@ public class Persona {
 
     public int getCedula() {
         return cedula;
-    ]
+    }
 }
 
